@@ -7,3 +7,4 @@ while [ $n -gt 0 ]; do
  rev=$(( $rev * 10 + $sd ))
  n=$(( $n / 10 ))
 done
+echo $rev
